@@ -1,8 +1,8 @@
 # Lab 0 — Inventory your own machine
 
-Pair:                     Driver first half:
-Machine:
-Date:
+Pair:                     Driver first half:Dautkaliyeva
+Machine: <host>, <guest if relevant>
+Date:15.10.26
 
 ## What I did
 
@@ -14,6 +14,8 @@ Steps, with commands in code blocks. Not prose about the steps.
 ```
 
 ## Result
+
+The table, the number, the screenshot — whatever the lab asked for.
 
 ## What did not work the first time
 
