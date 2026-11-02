@@ -1,0 +1,32 @@
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : WIN-S3TC7C9FE0U
+   Primary Dns Suffix  . . . . . . . : 
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Connection-specific DNS Suffix  . : 
+   Description . . . . . . . . . . . : Red Hat VirtIO Ethernet Adapter
+   Physical Address. . . . . . . . . : 56-99-EF-16-71-79
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   IPv6 Address. . . . . . . . . . . : fddb:5f1c:ca7c:f82a:eb82:2a49:f088:d484(Preferred) 
+   Temporary IPv6 Address. . . . . . : fddb:5f1c:ca7c:f82a:54b1:ad82:332b:a7f2(Preferred) 
+   Link-local IPv6 Address . . . . . : fe80::8191:51b:cbce:584f%4(Preferred) 
+   IPv4 Address. . . . . . . . . . . : 192.168.64.4(Preferred) 
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Tuesday, November 3, 2026 2:10:48 PM
+   Lease Expires . . . . . . . . . . : Tuesday, November 3, 2026 3:40:48 PM
+   Default Gateway . . . . . . . . . : fe80::c0c7:dbff:fe42:1e64%4
+                                       192.168.64.1
+   DHCP Server . . . . . . . . . . . : 192.168.64.1
+   DHCPv6 IAID . . . . . . . . . . . : 106338799
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-32-7B-4A-B3-56-99-EF-16-71-79
+   DNS Servers . . . . . . . . . . . : fe80::c0c7:dbff:fe42:1e64%4
+                                       192.168.64.1
+                                       fe80::c0c7:dbff:fe42:1e64%4
+   NetBIOS over Tcpip. . . . . . . . : Enabled
