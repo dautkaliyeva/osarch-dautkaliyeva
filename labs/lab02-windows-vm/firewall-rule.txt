@@ -1,0 +1,57 @@
+
+
+Name                          : {e62cd18d-0005-411d-bc5e-21729b4af87d}
+ID                            : {e62cd18d-0005-411d-bc5e-21729b4af87d}
+DisplayName                   : Lab2 Allow ICMPv4
+Group                         : 
+Enabled                       : True
+Profile                       : Any
+Platform                      : {}
+Direction                     : Inbound
+Action                        : Allow
+EdgeTraversalPolicy           : Block
+LSM                           : False
+PrimaryStatus                 : OK
+Status                        : The rule was parsed successfully from the store. 
+                                (65536)
+EnforcementStatus             : NotApplicable
+PolicyStoreSourceType         : Local
+Caption                       : 
+Description                   : 
+ElementName                   : Lab2 Allow ICMPv4
+InstanceID                    : {e62cd18d-0005-411d-bc5e-21729b4af87d}
+CommonName                    : 
+PolicyKeywords                : 
+PolicyDecisionStrategy        : 2
+PolicyRoles                   : 
+ConditionListType             : 3
+CreationClassName             : MSFT|FW|FirewallRule|{e62cd18d-0005-411d-bc5e-21729b
+                                4af87d}
+ExecutionStrategy             : 2
+Mandatory                     : 
+PolicyRuleName                : 
+Priority                      : 
+RuleUsage                     : 
+SequencedActions              : 3
+SystemCreationClassName       : 
+SystemName                    : 
+DisplayGroup                  : 
+LocalOnlyMapping              : False
+LooseSourceMapping            : False
+Owner                         : 
+PackageFamilyName             : 
+Platforms                     : {}
+PolicyAppId                   : 
+PolicyStoreSource             : PersistentStore
+Profiles                      : 0
+RemoteDynamicKeywordAddresses : {}
+RuleGroup                     : 
+StatusCode                    : 65536
+PSComputerName                : 
+CimClass                      : root/standardcimv2:MSFT_NetFirewallRule
+CimInstanceProperties         : {Caption, Description, ElementName, InstanceID...}
+CimSystemProperties           : Microsoft.Management.Infrastructure.CimSystemPropert
+                                ies
+
+
+
