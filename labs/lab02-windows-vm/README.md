@@ -23,5 +23,11 @@ Ubuntu initially could not ping Windows because of Windows Firewall. I fixed it 
 At least one thing. What I saw, what it turned out to be, what I did about it.
 
 ## Evidence
+-  [Windows IP configuration](evidence/ipconfig-windows.txt)
+-   [Ubuntu IP configuration](evidence/ip-addr-linux.txt)
+-  [Ping_in both directions](evidence/ping-both-ways.txt)
+-   [Windows Firewall rule](evidence/firewall-rule.txt)
+-  [Host memory before](evidence/host-memory-before.png)
+-   (Host memory after](evidence/host-memory-after.png)
 
 - [evidence/](evidence/) — one line per file on what it proves
