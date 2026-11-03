@@ -22,7 +22,8 @@ The request asked for a basic test computer without specifying the operating sys
 6. Took VM snapshots for recovery.
 
 ## 4. Evidence
-- `evidence/01-new-vm-wizard.png`: Screenshot of the VM creation wizard setup.
+- `evidence/<img width="882" height="639" alt="01-new-vm-wizard" src="https://github.com/user-attachments/assets/58b22046-4f0c-45cb-8c91-bdf3247ea53c" />
+`: Screenshot of the VM creation wizard setup.
 - `evidence/02-disk-settings.png`: Screenshot of virtual disk size allocation.
 - `evidence/03-network-adapter.png`: Screenshot showing virtual network adapter settings.
 - `evidence/04-guest-uname.txt`: Console output of `uname -a` from the Linux guest.
