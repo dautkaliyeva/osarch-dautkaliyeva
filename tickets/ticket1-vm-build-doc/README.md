@@ -18,29 +18,16 @@ The request asked for a basic test computer without specifying the operating sys
 2. Created a Linux VM (Ubuntu ARM64) with 4 GB RAM and 20 GB disk space.
 3. Created a Windows 11 VM (ARM64) with 6 GB RAM and 30 GB disk space.
 4. Configured shared virtual network adapters for both guests.
-5. Tested connectivity between guests using ping and verified system specs with uname -a.
+5. Tested connectivity between guests using ping and verified system specs.
 6. Took VM snapshots for recovery.
 
 ## 4. Evidence
-# BUILD Instructions: Linux & Windows Test VMs (UTM on Apple Silicon)
-
-### Step 1: Create New VM Wizard
-Open UTM, click the '+' icon, select "Virtualize", and choose Linux.
-![01-new-vm-wizard](evidence/01-new-vm-wizard.png)
-*Reasoning: We select Virtualize to leverage native Apple Silicon hardware acceleration for optimal performance.*
-
-### Step 2: Disk Allocation
-Specify the size of the drive where data will be stored (set to 20 GiB).
-![02-disk-settings](evidence/02-disk-settings.png)
-*Reasoning: Dynamic disk allocation ensures space is only used on the host SSD when actual data is written.*
-
-### Step 3: Network Configuration
-Configure the network adapter hardware settings to Shared Network.
-![03-network-adapter](evidence/03-network-adapter.png)
-*Reasoning: Shared Network allows virtual machines to access the internet while retaining local IP connectivity between guest VMs.*
-
-### Step 4: Verification and Evidence Capture
-Run system diagnostic commands and save evidence to the `/evidence` folder.
+- `evidence/01-new-vm-wizard.png`: Скриншот мастера конфигурации виртуальной машины[span_0](start_span)[span_0](end_span).
+- `evidence/02-ddisk-setting.png`: Скриншот выделения 20 ГБ виртуального диска[span_1](start_span)[span_1](end_span).
+- `evidence/03-network-adapter.png`: Скриншот настройки сетевого адаптера (Shared Network)[span_2](start_span)[span_2](end_span).
+- `evidence/04-guest-uname.txt`: Текстовый файл с выводом команды `uname -a`[span_3](start_span)[span_3](end_span).
+- `evidence/05-ping-between-guests.txt`: Лог успешной проверки пинга между гостевыми ОС[span_4](start_span)[span_4](end_span).
+- `evidence/06-snapshot-list.png`: Скриншот списка снимков состояния (snapshots)[span_5](start_span)[span_5](end_span).
 
 ## 5. What I would do differently
 Next time, I would automate the VM deployment process using CLI tools like `utmctl` or Vagrant scripts instead of performing manually guided installation via GUI.
