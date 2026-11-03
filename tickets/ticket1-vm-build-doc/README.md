@@ -22,12 +22,13 @@ The request asked for a basic test computer without specifying the operating sys
 6. Took VM snapshots for recovery.
 
 ## 4. Evidence
-- `evidence/01-new-vm-wizard.png`: Скриншот мастера конфигурации виртуальной машины[span_0](start_span)[span_0](end_span).
-- `evidence/02-ddisk-setting.png`: Скриншот выделения 20 ГБ виртуального диска[span_1](start_span)[span_1](end_span).
-- `evidence/03-network-adapter.png`: Скриншот настройки сетевого адаптера (Shared Network)[span_2](start_span)[span_2](end_span).
-- `evidence/04-guest-uname.txt`: Текстовый файл с выводом команды `uname -a`[span_3](start_span)[span_3](end_span).
-- `evidence/05-ping-between-guests.txt`: Лог успешной проверки пинга между гостевыми ОС[span_4](start_span)[span_4](end_span).
-- `evidence/06-snapshot-list.png`: Скриншот списка снимков состояния (snapshots)[span_5](start_span)[span_5](end_span).
+- [`evidence/01-new-vm-wizard.png`](evidence/01-new-vm-wizard.png): Screenshot of the virtual machine setup wizard.
+- [`evidence/02-ddisk-setting.png`](evidence/02-ddisk-setting.png): Screenshot of the 20 GiB virtual disk allocation.
+- [`evidence/03-network-adapter.png`](evidence/03-network-adapter.png): Screenshot of the Shared Network adapter configuration.
+- [`evidence/04-guest-uname.txt`](evidence/04-guest-uname.txt): Text file containing the output of `uname -a` from the guest OS.
+- [`evidence/05-ping-between-guests.txt`](evidence/05-ping-between-guests.txt): Log file of the successful ping test between guest VMs.
+- [`evidence/06-snapshot-list.png`](evidence/06-snapshot-list.png): Screenshot of the created VM snapshot list.
+
 
 ## 5. What I would do differently
 Next time, I would automate the VM deployment process using CLI tools like `utmctl` or Vagrant scripts instead of performing manually guided installation via GUI.
