@@ -7,7 +7,7 @@ Open UTM, click the '+' icon, select "Virtualize", and choose Linux.
 
 ### Step 2: Disk Allocation
 Specify the size of the drive where data will be stored (set to 20 GiB).
-![02-disk-settings](evidence/02-ddisk-settings.png)
+![02-ddisk-settings](evidence/02-ddisk-settings.png)
 *Reasoning: Dynamic disk allocation ensures space is only used on the host SSD when actual data is written.*
 
 ### Step 3: Network Configuration
