@@ -22,13 +22,25 @@ The request asked for a basic test computer without specifying the operating sys
 6. Took VM snapshots for recovery.
 
 ## 4. Evidence
-- `evidence/<img width="882" height="639" alt="01-new-vm-wizard" src="https://github.com/user-attachments/assets/58b22046-4f0c-45cb-8c91-bdf3247ea53c" />
-`: Screenshot of the VM creation wizard setup.
-- `evidence/02-disk-settings.png`: Screenshot of virtual disk size allocation.
-- `evidence/03-network-adapter.png`: Screenshot showing virtual network adapter settings.
-- `evidence/04-guest-uname.txt`: Console output of `uname -a` from the Linux guest.
-- `evidence/05-ping-between-guests.txt`: Output of the successful ping test between guest VMs.
-- `evidence/06-snapshot-list.png`: Screenshot of the created VM snapshot list.
+# BUILD Instructions: Linux & Windows Test VMs (UTM on Apple Silicon)
+
+### Step 1: Create New VM Wizard
+Open UTM, click the '+' icon, select "Virtualize", and choose Linux.
+![01-new-vm-wizard](evidence/01-new-vm-wizard.png)
+*Reasoning: We select Virtualize to leverage native Apple Silicon hardware acceleration for optimal performance.*
+
+### Step 2: Disk Allocation
+Specify the size of the drive where data will be stored (set to 20 GiB).
+![02-disk-settings](evidence/02-disk-settings.png)
+*Reasoning: Dynamic disk allocation ensures space is only used on the host SSD when actual data is written.*
+
+### Step 3: Network Configuration
+Configure the network adapter hardware settings to Shared Network.
+![03-network-adapter](evidence/03-network-adapter.png)
+*Reasoning: Shared Network allows virtual machines to access the internet while retaining local IP connectivity between guest VMs.*
+
+### Step 4: Verification and Evidence Capture
+Run system diagnostic commands and save evidence to the `/evidence` folder.
 
 ## 5. What I would do differently
 Next time, I would automate the VM deployment process using CLI tools like `utmctl` or Vagrant scripts instead of performing manually guided installation via GUI.
