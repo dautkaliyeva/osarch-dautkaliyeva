@@ -1,0 +1,7 @@
+$ cat /proc/mdstat
+Personalities : [raid1] 
+md0 : active raid1 vdd[2] vdc[1] vdb[0](F)
+      1046528 blocks super 1.2 [2/2] [UU]
+      bitmap: 0/1 pages [0KB], 65536KB chunk
+
+unused devices: <none>
