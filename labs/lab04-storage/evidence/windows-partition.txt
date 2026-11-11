@@ -1,0 +1,21 @@
+DISKPART> detail disk
+
+Red Hat VirtIO SCSI Disk Device
+Disk ID: {1310C5F4-D28B-4623-8B01-0F78F1D279AA}
+Type   : SCSI
+Status : Online
+Path   : 0
+Target : 0
+LUN ID : 0
+Location Path : PCIROOT(0)#PCI(0700)#SCSI(P00T00L00)
+Current Read-only State : No
+Read-only  : No
+Boot Disk  : No
+Pagefile Disk  : No
+Hibernation File Disk  : No
+Crashdump Disk  : No
+Clustered Disk  : No
+
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 5     F    Lab4         NTFS   Partition   1006 MB  Healthy
