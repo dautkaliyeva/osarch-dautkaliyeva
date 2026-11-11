@@ -1,0 +1,2 @@
+$ md5sum /mnt/raid1/survival_test.txt
+8f14e45fceea167a5a36dedd4bea2543  /mnt/raid1/survival_test.txt
