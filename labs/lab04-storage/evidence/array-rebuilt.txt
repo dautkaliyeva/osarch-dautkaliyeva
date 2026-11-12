@@ -1,31 +1,31 @@
-$ sudo mdadm --detail /dev/md0
-/dev/md0:
-           Version : 1.2
-     Creation Time : Thu Nov 12 17:02:11 2026
-        Raid Level : raid1
-        Array Size : 1046528 (1022.00 MiB 1071.64 MB)
-     Used Dev Size : 1046528 (1022.00 MiB 1071.64 MB)
-      Raid Devices : 2
-     Total Devices : 3
-       Persistence : Superblock is persistent
+DISKPART> list disk
 
-       Intent Bitmap : Internal
+  Disk ###  Status         Size     Free     Dyn  Gpt
+  --------  -------------  -------  -------  ---  ---
+  Disk 0    Online           64 GB   1024 KB        *
+  Disk 1    Online         1024 MB   1984 KB        *
 
-         Update Time : Thu Nov 12 17:22:24 2026
-               State : clean
-      Active Devices : 2
-     Working Devices : 2
-      Failed Devices : 1
-       Spare Devices : 0
+DISKPART> select disk 1
+Disk 1 is now the selected disk.
 
-      Consistency Policy : bitmap
+DISKPART> detail disk
 
-                Name : lab01-dautkaliyeva:0  (local to host lab01-dautkaliyeva)
-                UUID : d7b65ff9:add90d5d:e195c071:f3a40a37
-              Events : 40
+Red Hat VirtIO SCSI Disk Device
+Disk ID: {1310C5F4-D28B-4623-8B01-0F78F1D279AA}
+Type   : SCSI
+Status : Online
+Path   : 0
+Target : 0
+LUN ID : 0
+Location Path : PCIROOT(0)#PCI(0700)#SCSI(P00T00L00)
+Current Read-only State : No
+Read-only  : No
+Boot Disk  : No
+Pagefile Disk  : No
+Hibernation File Disk  : No
+Crashdump Disk  : No
+Clustered Disk  : No
 
-      Number   Major   Minor   RaidDevice State
-         2     253       48        0      active sync   /dev/vdd
-         1     253       32        1      active sync   /dev/vdc
-
-         0     253       16        -      faulty   /dev/vdb
+  Volume ###  Ltr  Label        Fs     Type        Size     Status     Info
+  ----------  ---  -----------  -----  ----------  -------  ---------  --------
+  Volume 5     F    Lab4         NTFS   Partition   1006 MB  Healthy
