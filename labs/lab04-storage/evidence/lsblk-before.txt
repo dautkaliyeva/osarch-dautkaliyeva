@@ -1,9 +1,18 @@
 $ lsblk
-NAME   MAJ:MIN RM  SIZE RO TYPE MOUNTPOINTS
-vda    253:0    0   25G  0 disk 
-├─vda1 253:1    0    1G  0 part /boot/efi
-├─vda2 253:2    0    2G  0 part /boot
-└─vda3 253:3    0 21.9G  0 part 
-vdb    253:16   0    1G  0 disk 
-vdc    253:32   0    1G  0 disk 
-vdd    253:48   0    1G  0 disk
+NAME                      MAJ:MIN RM   SIZE RO TYPE MOUNTPOINTS
+loop0                       7:0    0     4K  1 loop /snap/bare/5
+loop1                       7:1    0  61.8M  1 loop /snap/core24/2125
+loop2                       7:2    0   262M  1 loop /snap/firefox/9136
+loop3                       7:3    0  91.7M  1 loop /snap/gtk-common-themes/1535
+loop4                       7:4    0   562M  1 loop /snap/gnome-46-2404/176
+loop5                       7:5    0  38.6M  1 loop /snap/snapd/28255
+loop6                       7:6    0   188M  1 loop /snap/mesa-2404/1836
+sr0                        11:0    1   2.9G  0 rom
+vda                       253:0    0    25G  0 disk 
+├─vda1                    253:1    0     1G  0 part /boot/efi
+├─vda2                    253:2    0     2G  0 part /boot
+└─vda3                    253:3    0  21.9G  0 part 
+  └─ubuntu--vg-ubuntu--lv 252:0    0    11G  0 lvm  /
+vdb                       253:16   0     1G  0 disk 
+vdc                       253:32   0     1G  0 disk 
+vdd                       253:48   0     1G  0 disk
