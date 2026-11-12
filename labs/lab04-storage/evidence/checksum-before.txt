@@ -1,2 +1,3 @@
-$ md5sum /mnt/raid1/survival_test.txt
-8f14e45fceea167a5a36dedd4bea2543  /mnt/raid1/survival_test.txt
+$ sha256sum /mnt/raid1/proof.txt /mnt/raid1/random.bin
+399adf51a29fcee32cd2c213b65af2f7ed44fa138e9f3b8f78df23c76d79de00  /mnt/raid1/proof.txt
+1e711327e2aa22a72b4d59d3833ac76eca0660950674f1499f34eaf72464a4eb  /mnt/raid1/random.bin
