@@ -1,7 +1,31 @@
-$ cat /proc/mdstat
-Personalities : [raid1] 
-md0 : active raid1 vdd[2] vdc[1] vdb[0](F)
-      1046528 blocks super 1.2 [2/2] [UU]
-      bitmap: 0/1 pages [0KB], 65536KB chunk
+$ sudo mdadm --detail /dev/md0
+/dev/md0:
+           Version : 1.2
+     Creation Time : Thu Nov 12 17:02:11 2026
+        Raid Level : raid1
+        Array Size : 1046528 (1022.00 MiB 1071.64 MB)
+     Used Dev Size : 1046528 (1022.00 MiB 1071.64 MB)
+      Raid Devices : 2
+     Total Devices : 3
+       Persistence : Superblock is persistent
 
-unused devices: <none>
+       Intent Bitmap : Internal
+
+         Update Time : Thu Nov 12 17:22:24 2026
+               State : clean
+      Active Devices : 2
+     Working Devices : 2
+      Failed Devices : 1
+       Spare Devices : 0
+
+      Consistency Policy : bitmap
+
+                Name : lab01-dautkaliyeva:0  (local to host lab01-dautkaliyeva)
+                UUID : d7b65ff9:add90d5d:e195c071:f3a40a37
+              Events : 40
+
+      Number   Major   Minor   RaidDevice State
+         2     253       48        0      active sync   /dev/vdd
+         1     253       32        1      active sync   /dev/vdc
+
+         0     253       16        -      faulty   /dev/vdb
