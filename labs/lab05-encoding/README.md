@@ -1,5 +1,5 @@
 # Lab 5 — Encoding forensics
-Pair: Venera (solo)
+Pair: Dautkaliyeva Diana
 Machine: macOS, LibreOffice calc, GitHub
 Date: 14 Nov 2026
 
