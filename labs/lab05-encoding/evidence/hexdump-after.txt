@@ -1,0 +1,5 @@
+$ xxd evidence/staff-fixed.csv | head -n 4
+00000000: 4944 3bd4 e0ec e8eb e8ff 3bc8 ecff 3bce  ID;.......;...;.
+00000010: f2e4 e5eb 3bc4 eeeb e6ed eef1 f2fc 3bc3  ....;.........;.
+00000020: eef0 eee4 0a31 3031 3b3f e1e4 b3f0 e0f5  .....101;?......
+00000030: ece0 edee e2e0 3bc0 f0f3 e6e0 ed3b c1f3  ......;......;..
