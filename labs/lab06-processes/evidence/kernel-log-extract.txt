@@ -1,0 +1,63 @@
+Nov 15 14:15:55 lab01-dautkaliyeva kernel: audit: type=1400 audit(1794752155.430:206): apparmor="DENIED" operation="open" class="file" profile="who" name="/etc/passwd" pid=10725 comm="who" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov 15 14:15:55 lab01-dautkaliyeva kernel: audit: type=1400 audit(1794752155.430:207): apparmor="DENIED" operation="open" class="file" profile="who" name="/etc/nsswitch.conf" pid=10725 comm="who" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov 15 14:15:55 lab01-dautkaliyeva kernel: audit: type=1400 audit(1794752155.430:208): apparmor="DENIED" operation="open" class="file" profile="who" name="/etc/passwd" pid=10725 comm="who" requested_mask="r" denied_mask="r" fsuid=0 ouid=0
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x440dc0(GFP_KERNEL_ACCOUNT|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: CPU: 1 UID: 1000 PID: 11181 Comm: stress-ng-vm Not tainted 7.0.0-43-generic #43-Ubuntu PREEMPT(lazy) 
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: Hardware name: QEMU QEMU Virtual Machine, BIOS 0.0.0 02/06/2015
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: Call trace:
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  show_stack+0x24/0x50 (C)
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  dump_stack_lvl+0x80/0xc0
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  dump_stack+0x1c/0x40
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  dump_header+0x4c/0x1c8
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  oom_kill_process+0x2a4/0x350
+--
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: [  11180]  1000 11180   378779   372311   372069      225        17  3072000        0          1000 stress-ng-vm
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: [  11181]  1000 11181   425259   408181   407923      241        17  3362816        0          1000 stress-ng-vm
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: [  11214]  1000 11214     4007      721      294      427         0    77824        0             0 sleep
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-1.scope,task=stress-ng-vm,pid=11181,uid=1000
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: Out of memory: Killed process 11181 (stress-ng-vm) total-vm:1701036kB, anon-rss:1631692kB, file-rss:964kB, shmem-rss:68kB, UID:1000 pgtables:3284kB oom_score_adj:1000
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x440dc0(GFP_KERNEL_ACCOUNT|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: CPU: 1 UID: 1000 PID: 11215 Comm: stress-ng-vm Not tainted 7.0.0-43-generic #43-Ubuntu PREEMPT(lazy) 
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: Hardware name: QEMU QEMU Virtual Machine, BIOS 0.0.0 02/06/2015
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: Call trace:
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  show_stack+0x24/0x50 (C)
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  dump_stack_lvl+0x80/0xc0
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  dump_stack+0x1c/0x40
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  dump_header+0x4c/0x1c8
+Nov 15 14:26:11 lab01-dautkaliyeva kernel:  oom_kill_process+0x2a4/0x350
+--
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: [  11180]  1000 11180   425259   418823   418549      257        17  3444736        0          1000 stress-ng-vm
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: [  11215]  1000 11215   378779   359555   359394      145        16  2969600        0          1000 stress-ng-vm
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: [  11218]  1000 11218     4184      720      294      426         0    77824        0             0 sleep
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-1.scope,task=stress-ng-vm,pid=11180,uid=1000
+Nov 15 14:26:11 lab01-dautkaliyeva kernel: Out of memory: Killed process 11180 (stress-ng-vm) total-vm:1701036kB, anon-rss:1674196kB, file-rss:1028kB, shmem-rss:68kB, UID:1000 pgtables:3364kB oom_score_adj:1000
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x440dc0(GFP_KERNEL_ACCOUNT|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: CPU: 1 UID: 1000 PID: 11215 Comm: stress-ng-vm Not tainted 7.0.0-43-generic #43-Ubuntu PREEMPT(lazy) 
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: Hardware name: QEMU QEMU Virtual Machine, BIOS 0.0.0 02/06/2015
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: Call trace:
+Nov 15 14:26:47 lab01-dautkaliyeva kernel:  show_stack+0x24/0x50 (C)
+Nov 15 14:26:47 lab01-dautkaliyeva kernel:  dump_stack_lvl+0x80/0xc0
+Nov 15 14:26:47 lab01-dautkaliyeva kernel:  dump_stack+0x1c/0x40
+Nov 15 14:26:47 lab01-dautkaliyeva kernel:  dump_header+0x4c/0x1c8
+Nov 15 14:26:47 lab01-dautkaliyeva kernel:  oom_kill_process+0x2a4/0x350
+--
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: [  11215]  1000 11215   425259   352887   352627      243        17  2920448        0          1000 stress-ng-vm
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: [  11221]  1000 11221   425259   418808   418549      242        17  3444736        0          1000 stress-ng-vm
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: [  11256]  1000 11256     4172      722      295      427         0    77824        0             0 sleep
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-1.scope,task=stress-ng-vm,pid=11221,uid=1000
+Nov 15 14:26:47 lab01-dautkaliyeva kernel: Out of memory: Killed process 11221 (stress-ng-vm) total-vm:1701036kB, anon-rss:1674196kB, file-rss:968kB, shmem-rss:68kB, UID:1000 pgtables:3364kB oom_score_adj:1000
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: stress-ng-vm invoked oom-killer: gfp_mask=0x440dc0(GFP_KERNEL_ACCOUNT|__GFP_ZERO|__GFP_COMP), order=0, oom_score_adj=1000
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: CPU: 2 UID: 1000 PID: 11257 Comm: stress-ng-vm Not tainted 7.0.0-43-generic #43-Ubuntu PREEMPT(lazy) 
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: Hardware name: QEMU QEMU Virtual Machine, BIOS 0.0.0 02/06/2015
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: Call trace:
+Nov 15 14:26:48 lab01-dautkaliyeva kernel:  show_stack+0x24/0x50 (C)
+Nov 15 14:26:48 lab01-dautkaliyeva kernel:  dump_stack_lvl+0x80/0xc0
+Nov 15 14:26:48 lab01-dautkaliyeva kernel:  dump_stack+0x1c/0x40
+Nov 15 14:26:48 lab01-dautkaliyeva kernel:  dump_header+0x4c/0x1c8
+Nov 15 14:26:48 lab01-dautkaliyeva kernel:  oom_kill_process+0x2a4/0x350
+--
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: [  11215]  1000 11215   425259   418808   418549      242        17  3444736        0          1000 stress-ng-vm
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: [  11257]  1000 11257   378779   353923   353762      145        16  2924544        0          1000 stress-ng-vm
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: [  11260]  1000 11260     4237      723      295      428         0    77824        0             0 sleep
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: oom-kill:constraint=CONSTRAINT_NONE,nodemask=(null),cpuset=/,mems_allowed=0,global_oom,task_memcg=/user.slice/user-1000.slice/session-1.scope,task=stress-ng-vm,pid=11215,uid=1000
+Nov 15 14:26:48 lab01-dautkaliyeva kernel: Out of memory: Killed process 11215 (stress-ng-vm) total-vm:1701036kB, anon-rss:1674196kB, file-rss:968kB, shmem-rss:68kB, UID:1000 pgtables:3364kB oom_score_adj:1000
