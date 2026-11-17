@@ -1,0 +1,37 @@
+role,component,model,price_kzt,source,date
+
+accountant,CPU,AMD Ryzen 5 7600,100342,https://itmag.kz/p/91111-processor-amd-ryzen-5-7600-3-8gc-5-1ggc-tur7utm_source=-,2026-11-17
+accountant,Motherboard,MSI PRO B650M-P,67570,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p,2026-11-17
+accountant,Memory,Kingston FURY Beast Black 16GB (2x8GB) DDR5 5600MHz,165390,https://www.dns-shop.kz/product/e3717639fb37ed20/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-blac-,2026-11-17
+accountant,Storage,Kingston NV3 1TB M.2 NVMe,76180,https://www.dns-shop.kz/product/fe0d78e690d9d582/1000-gb-m2-nvme-nakopitel-kingston-nv3-snv3s-1000g,2026-11-17
+accountant,PSU,DEEPCOOL PF550,19810,https://www.dns-shop.kz/product/766fbf8fa7abd21a/blok-pitania-deepcool-pf550-r-pf550d-ha0b-wdeu-cernyj,2026-11-17
+accountant,Case,DEEPCOOL CC560 Limited V2,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2,2026-11-17
+accountant,Monitor,Xiaomi A24i 23.8",46990,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-black/?utm_medium=cpc&utm_source=-,2026-11-17
+accountant,OS,Microsoft Windows 11 Pro,118650,https://www.dns-shop.kz/product/73e72ca0b81b052f/operacionnaa-sistema-microsoft-windows-11-pro,2026-11-17
+
+sales,CPU,AMD Ryzen 5 7600,100342,https://itmag.kz/p/91111-processor-amd-ryzen-5-7600-3-8gc-5-1ggc-tur7utm_source=-,2026-11-17
+sales,Motherboard,MSI PRO B650M-P,67570,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p,2026-11-17
+sales,Memory,Kingston FURY Beast Black 32GB (2x16GB) DDR5 5600MHz,292490,https://www.dns-shop.kz/product/6931dfc0c671b23/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-blac-,2026-11-17
+sales,Storage,Kingston NV3 1TB M.2 NVMe,76180,https://www.dns-shop.kz/product/fe0d78e690d9d582/1000-gb-m2-nvme-nakopitel-kingston-nv3-snv3s-1000g,2026-11-17
+sales,PSU,DEEPCOOL PF550,19810,https://www.dns-shop.kz/product/766fbf8fa7abd21a/blok-pitania-deepcool-pf550-r-pf550d-ha0b-wdeu-cernyj,2026-11-17
+sales,Case,DEEPCOOL CC560 Limited V2,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2,2026-11-17
+sales,Monitor,Xiaomi A24i 23.8",46990,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-black/?utm_medium=cpc&utm_source=-,2026-11-17
+sales,OS,Microsoft Windows 11 Pro,118650,https://www.dns-shop.kz/product/73e72ca0b81b052f/operacionnaa-sistema-microsoft-windows-11-pro,2026-11-17
+
+webdev,CPU,AMD Ryzen 7 7700,193490,https://www.dns-shop.kz/product/537d04e3e959ed20/processor-amd-ryzen-7-7700-box,2026-11-17
+webdev,Motherboard,MSI PRO B650M-P,67570,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p,2026-11-17
+webdev,Memory,Kingston FURY Beast Black 32GB (2x16GB) DDR5 5600MHz,292490,https://www.dns-shop.kz/product/6931dfc0c671b23/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-blac-,2026-11-17
+webdev,Storage,Samsung 990 EVO Plus 1TB NVMe,127390,https://www.dns-shop.kz/product/6963f3c1d897d9cb/1000-gb-m2-nvme-nakopitel-samsung-990-evo-plus-mz-v9s1t0bw,2026-11-17
+webdev,PSU,MSI MAG A650BN,33150,https://www.dns-shop.kz/product/394ca6eee812ff2/blok-pitania-msi-mag-a650bn-306-7zp2b19-ce0,2026-11-17
+webdev,Case,DEEPCOOL CC560 Limited V2,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2,2026-11-17
+webdev,Monitor,Xiaomi A24i 23.8",46990,https://shop.kz/offer/monitor-23-8-xiaomi-a24i-black/?utm_medium=cpc&utm_source=-,2026-11-17
+webdev,OS,Ubuntu Desktop (Free/Open Source),0,https://ubuntu.com/desktop,2026-11-17
+
+designer,CPU,AMD Ryzen 5 7600,100342,https://itmag.kz/p/91111-processor-amd-ryzen-5-7600-3-8gc-5-1ggc-tur7utm_source=-,2026-11-17
+designer,Motherboard,MSI PRO B650M-P,67570,https://www.dns-shop.kz/product/2a63664ce255ed20/materinskaa-plata-msi-pro-b650m-p,2026-11-17
+designer,Memory,Kingston FURY Beast Black 32GB (2x16GB) DDR5 5600MHz,292490,https://www.dns-shop.kz/product/6931dfc0c671b23/operativnaa-pamat-ddr5-udimm-kingston-fury-beast-blac-,2026-11-17
+designer,Storage,Samsung 990 EVO Plus 1TB NVMe,127390,https://www.dns-shop.kz/product/6963f3c1d897d9cb/1000-gb-m2-nvme-nakopitel-samsung-990-evo-plus-mz-v9s1t0bw,2026-11-17
+designer,PSU,MSI MAG A650BN,33150,https://www.dns-shop.kz/product/394ca6eee812ff2/blok-pitania-msi-mag-a650bn-306-7zp2b19-ce0,2026-11-17
+designer,Case,DEEPCOOL CC560 Limited V2,25520,https://www.dns-shop.kz/product/f29378c5fbb8d9cb/korpus-deepcool-cc560-limited-v2-r-cc560-bknaa0-g-2,2026-11-17
+designer,Monitor,Xiaomi A27Qi 2026 (27" 2K IPS),87290,https://www.dns-shop.kz/product/5be30096c382d582/27-monitor-xiaomi-a27qi-2026-cernyj,2026-11-17
+designer,OS,Microsoft Windows 11 Pro,118650,https://www.dns-shop.kz/product/73e72ca0b81b052f/operacionnaa-sistema-microsoft-windows-11-pro,2026-11-17
