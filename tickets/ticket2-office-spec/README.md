@@ -1,5 +1,7 @@
 # Ticket 2: Office Hardware Specification & Budget
-
+Name: Dautkaliyeva Diana
+Maschine: MacBook M5 Pro
+Date: 17.11.2026
 ## 1. Objective
 To design, select, and document optimal hardware configurations and software for four distinct professional roles (Accountant, Sales Manager, Web Developer, Designer) within a strict corporate budget of **3,000,000 KZT**.
 
